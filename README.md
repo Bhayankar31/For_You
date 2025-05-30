@@ -295,6 +295,9 @@
       signupSubmitBtn.disabled = false;
       signupSubmitBtn.classList.remove('opacity-50', 'cursor-not-allowed');
       activateEmailSignup();
+
+      // After signup, redirect to login page
+      window.location.href = 'login.html';
     });
   </script>
 </body>
